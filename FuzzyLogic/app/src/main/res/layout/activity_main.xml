@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jorgezeped.fuzzylogic.MainActivity">
+
+    <TextView
+        android:id="@+id/textview_title"
+        android:text="@string/app_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        />
+
+    <Button
+        android:id="@+id/button_alreadyPairedBT"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="SHOW ALREADY PAIRED BT DEVICES"
+        />
+
+    <Button
+        android:id="@+id/button_scanBT"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="SCAN FOR BT DEVICES"
+        android:layout_below="@id/button_alreadyPairedBT"
+        />
+
+</RelativeLayout>
